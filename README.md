@@ -26,21 +26,15 @@ https://datos.gob.cl/dataset/emisiones-al-aire-de-fuentes-difusas
 Los datos dentro del database muestran registros de que tipo de fuente han ocurrido en lugar y año especificos, tambien cuantificando la masa emitida en toneladas y su contaminante
 
 ## Estrucura del repositorio
-proyecto-visualizacion/
-|
-|-- data/
-| |-- raw/
-| ‘-- processed/
-|
-|-- notebooks/
-| ‘-- 01_exploracion.ipynb
-|
-|-- src/
-|
-|-- figures/
-|
-|-- app/
-|
-|-- README.md
-|
-‘-- .gitignore
+
+```text
+├── data/
+│   ├── raw/         # Datos originales descargados (excluidos en .gitignore)
+│   └── processed/   # Dataset unificado 2019-2024
+├── notebooks/       # Notebooks de exploración y análisis (EDA)
+│   └── 01_exploracion.ipynb
+├── src/             # Scripts de Python para carga y limpieza
+├── figures/         # Gráficos y recursos visuales exportados
+├── app/             # Aplicación interactiva (Streamlit / Plotly)
+├── .gitignore       # Archivos excluidos del control de versiones
+└── README.md        # Documentación principal del proyecto
