@@ -15,8 +15,8 @@ Se investigan las comunas de Chile, pero con un enfoque en la zona centro sur. c
 los limites es que no veremos la produccion de gases de industrias, vehiculos, etc
 
 ## estructura x, y, t:
-X = tipo_fuente, contaminant, region, provincia, comuna, Rural o Urbano, Lat, Lon.
-Y = cantidad_ton
+X = tipo_fuente, contaminantes, region, provincia, comuna, Rural o Urbano, Lat, Lon.
+Y = cantidad_toneladas
 T = año
 
 ## fuente del dataset:
@@ -29,12 +29,12 @@ Los datos dentro del database muestran registros de que tipo de fuente han ocurr
 
 ```text
 ├── data/
-│   ├── raw/         # Datos originales descargados (excluidos en .gitignore)
-│   └── processed/   # Dataset unificado 2019-2024
-├── notebooks/       # Notebooks de exploración y análisis (EDA)
+│   ├── raw/         
+│   └── processed/  
+├── notebooks/      
 │   └── 01_exploracion.ipynb
-├── src/             # Scripts de Python para carga y limpieza
-├── figures/         # Gráficos y recursos visuales exportados
-├── app/             # Aplicación interactiva (Streamlit / Plotly)
-├── .gitignore       # Archivos excluidos del control de versiones
-└── README.md        # Documentación principal del proyecto
+├── src/             
+├── figures/         
+├── app/             
+├── .gitignore       
+└── README.md        
