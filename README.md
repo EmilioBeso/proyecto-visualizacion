@@ -60,7 +60,7 @@ En la pagina 2 se encuentra la página interactiva principal donde el usuario pu
 
 En la pagina 3 se fija el análisis específicamente en el material particulado MP2,5 por ser el más crítico para la salud, aparte que tiene la seccion para ver los hotspots y da una conclusion dado con los datos obtenidos.
 
-## Estrucura del repositorio:
+## Estructura del repositorio:
 
 ```text
 ├── data/
@@ -81,3 +81,4 @@ En la pagina 3 se fija el análisis específicamente en el material particulado 
 │
 ├── .gitignore       
 └── README.md
+└── requirements.txt
