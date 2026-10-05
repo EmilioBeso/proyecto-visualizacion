@@ -48,8 +48,8 @@ Una vez dentro de la carpeta app escribir en el terminal; streamlit run app.py
 
 Si no se abre la pagina con la aplicacion entrar manualmente al localhost
 
-## Aependencias Principales:
-El sistema utiliza bibliotecas tales como pandas, streamlit, plotlit express o numpy
+## Dependencias Principales:
+El sistema utiliza bibliotecas tales como pandas, streamlit, plotly.express, plotly y numpy.
 
 ## Breve descripcion de las paginas de la aplicacion:
 En la pagina app se encuentra una introduccion donde se explica brevemente el contexto del proyecto, y tambien que para acceder a la informacion visual se debe de acceder en el menu lateral.
