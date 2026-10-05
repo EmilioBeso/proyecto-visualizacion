@@ -25,16 +25,42 @@ https://datos.gob.cl/dataset/emisiones-al-aire-de-fuentes-difusas
 
 Los datos dentro del database muestran registros de que tipo de fuente han ocurrido en lugar y año especificos, tambien cuantificando la masa emitida en toneladas y su contaminante
 
-## Estrucura del repositorio
+## problema y pregunta:
+En Chile al igual que en varios paises existen los gases causados por la quema de leña, queremos encontrar una forma en la cual podramos identificar como es que van evolucionando las emisiones de estos segun las zonas del pais de una forma que estos datos se puedan entender de forma visual, por lo cual añadiendole a nuestra pregunta; ¿Cómo se distribuyen y han evolucionado las emisiones atmosféricas por fuentes difusas en las comunas de Chile entre 2019 y 2024, y qué zonas concentran los mayores niveles de contaminación por leña y quemas agrícolas? 
+tambien buscamos que se pueda visualizar con graficos
+
+## descripcion del dataset:
+El dataset utilizado representan las estimaciones oficiales del Ministerio del Medio Ambiente desde el año 2019 hasta el 2024 sobre la masa de contaminantes vertidos al aire por actividades no industriales ni vehiculares (leña, quemas, incendios, uso de solventes) en las reciones centro-sur de Chile, separandolo por tipo de fuente, contaminante, provincia y comuna. ​
+
+## instrucciones para obtener los datos:
+El dataset completo es una combinacion de archivos encontrados en datos.gob.cl en la seccion de Emisiones al aire de fuentes difusas, tomando los años del 2019 hasta el 2024, estos archivos fueron procesados en un notebook para agrupar los distintos años y resumirlos a la vez
+
+## instrucciones para ejecutar la aplicacion:
+
+
+## dependencias principales:
+El sistema utiliza bibliotecas tales como pandas, streamlit, plotlit express o numpy
+
+## breve descripcion de las paginas de la aplicacion:
+
+
+## Estrucura del repositorio:
 
 ```text
 ├── data/
 │   ├── raw/         
 │   └── processed/  
 ├── notebooks/      
-│   └── 01_exploracion.ipynb
+│   ├── 01_exploracion.ipynb
+│   └── 02_eda.ipynb
 ├── src/             
 ├── figures/         
-├── app/             
+├── app/
+│   ├──app.py
+│   └── pages/
+│       ├── 1_Contexto.py
+│       ├── 2_EDA.py
+│       └── 3_Analisis.py
+│
 ├── .gitignore       
-└── README.md        
+└── README.md
