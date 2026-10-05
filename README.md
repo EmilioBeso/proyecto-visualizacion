@@ -36,7 +36,17 @@ El dataset utilizado representan las estimaciones oficiales del Ministerio del M
 El dataset completo es una combinacion de archivos encontrados en datos.gob.cl en la seccion de Emisiones al aire de fuentes difusas, tomando los años del 2019 hasta el 2024, estos archivos fueron procesados en un notebook para agrupar los distintos años y resumirlos a la vez
 
 ## Instrucciones para Ejecutar la Aplicacion:
+Descargar el archivo mediante guthub
 
+Abrir el archivo en VS Code
+
+En el terminal descargar las librerias con este comando; pip install -r requirements.txt
+
+En el terminal escribir; cd app
+
+Una vez dentro de la carpeta app escribir en el terminal; streamlit run app.py
+
+Si no se abre la pagina con la aplicacion entrar manualmente al localhost
 
 ## Aependencias Principales:
 El sistema utiliza bibliotecas tales como pandas, streamlit, plotlit express o numpy
