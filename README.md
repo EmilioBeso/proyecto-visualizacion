@@ -41,10 +41,13 @@ El dataset completo es una combinacion de archivos encontrados en datos.gob.cl e
 ## Aependencias Principales:
 El sistema utiliza bibliotecas tales como pandas, streamlit, plotlit express o numpy
 
-## breve descripcion de las paginas de la aplicacion:
+## Breve descripcion de las paginas de la aplicacion:
 En la pagina app se encuentra una introduccion donde se explica brevemente el contexto del proyecto, y tambien que para acceder a la informacion visual se debe de acceder en el menu lateral.
+
 En la pagina 1 se define el problema, la pregunta de investigación y el alcance del estudio (variables, objetivo y temporalidad). Aparte muestra los datos despues de la limpieza.
+
 En la pagina 2 se encuentra la página interactiva principal donde el usuario puede filtrar la información por tipo de contaminante y región mostrando los datos en varios graficos.
+
 En la pagina 3 se fija el análisis específicamente en el material particulado MP2,5 por ser el más crítico para la salud, aparte que tiene la seccion para ver los hotspots y da una conclusion dado con los datos obtenidos.
 
 ## Estrucura del repositorio:
