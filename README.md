@@ -1,5 +1,5 @@
 ## Integrantes; 
-Emilio Besoain, Rony huenuñanco
+Emilio Besoain, Rony huenuñanco, Joaquin Lebuy
 
 ## Descripcion:
 Las emisiones atmosféricas generadas por fuentes difusas (combustión de leña residencial, quemas agrícolas e incendios forestales) tienen menor visibilidad pública que la gran industria, pero afectan directamente la calidad del aire a nivel comunal en Chile.
