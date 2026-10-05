@@ -23,7 +23,9 @@ T = año
 Registro de Emisiones y Transferencias de Contaminantes - ministerio del medioambiente
 https://datos.gob.cl/dataset/emisiones-al-aire-de-fuentes-difusas
 
-Los datos dentro del database muestran registros de que tipo de fuente han ocurrido en lugar y año especificos, tambien cuantificando la masa emitida en toneladas y su contaminante
+Los datos dentro del database muestran registros de que tipo de fuente han ocurrido en lugar y año especificos, tambien cuantificando la masa emitida en toneladas y su contaminante.
+
+Estos dataset de 2019-2024 deben estar en la carpeta de data/raw para poder correr el jupyter nootebook 01, y el compilado debe estar en processed
 
 ## Problema y Pregunta:
 En Chile al igual que en varios paises existen los gases causados por la quema de leña, queremos encontrar una forma en la cual podramos identificar como es que van evolucionando las emisiones de estos segun las zonas del pais de una forma que estos datos se puedan entender de forma visual, por lo cual añadiendole a nuestra pregunta; ¿Cómo se distribuyen y han evolucionado las emisiones atmosféricas por fuentes difusas en las comunas de Chile entre 2019 y 2024, y qué zonas concentran los mayores niveles de contaminación por leña y quemas agrícolas? 
